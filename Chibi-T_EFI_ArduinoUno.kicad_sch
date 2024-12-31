@@ -9186,7 +9186,7 @@
 		)
 		(uuid "01ea9310-cf66-436b-9b89-1a2f4237b59e")
 	)
-	(label "RESET"
+	(label "ENGOFF"
 		(at 359.41 149.86 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9230,7 +9230,7 @@
 		)
 		(uuid "3de8d79a-4c71-40a0-8f1a-eb61fa028124")
 	)
-	(label "G"
+	(label "WH"
 		(at 363.22 157.48 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9252,7 +9252,7 @@
 		)
 		(uuid "583498a8-cc6d-48f4-911d-17c2ad67d05b")
 	)
-	(label "START"
+	(label "G"
 		(at 361.95 154.94 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9307,7 +9307,7 @@
 		)
 		(uuid "9cccf5f9-68a4-4e61-b418-6185dd6a5f9a")
 	)
-	(label "ENGOFF"
+	(label "START"
 		(at 360.68 152.4 0)
 		(fields_autoplaced yes)
 		(effects
