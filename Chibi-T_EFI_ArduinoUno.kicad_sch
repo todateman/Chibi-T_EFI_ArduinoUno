@@ -12576,6 +12576,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5224260"
+			(at 85.09 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b9b3ec2c-8a5a-42bf-bc6c-a9d3e8fad950")
 		)
@@ -12877,6 +12886,15 @@
 		)
 		(property "Description" ""
 			(at 85.09 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5224260"
+			(at 85.09 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14106,6 +14124,15 @@
 		)
 		(property "Description" ""
 			(at 55.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5359629"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17983,6 +18010,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5224260"
+			(at 31.75 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d122f829-a36f-4d7c-b035-c1eeb6399e9c")
 		)
@@ -19683,6 +19719,15 @@
 				(hide yes)
 			)
 		)
+		(property "フィールド6" "NE-Z(4)"
+			(at 0 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "250a5064-ff35-421a-a1c3-639f13f9a2fb")
 		)
@@ -21091,6 +21136,15 @@
 		)
 		(property "Description" ""
 			(at 31.75 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5224260"
+			(at 31.75 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
