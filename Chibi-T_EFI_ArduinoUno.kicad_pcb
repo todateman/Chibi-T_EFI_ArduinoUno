@@ -20680,7 +20680,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C72043"
+		(property "LCSC" "C22371297"
 			(at 255.1965 -66.9775 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22964,7 +22964,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C72043"
+		(property "LCSC" "C22371297"
 			(at 224.7165 -36.4975 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26586,7 +26586,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C72043"
+		(property "LCSC" "C22371297"
 			(at 234.8765 -46.6575 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28340,7 +28340,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C72043"
+		(property "LCSC" "C22371297"
 			(at 245.0365 -56.8175 0)
 			(layer "F.Fab")
 			(hide yes)

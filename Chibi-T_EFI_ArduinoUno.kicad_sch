@@ -15009,7 +15009,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C72043"
+		(property "LCSC" "C22371297"
 			(at 35.56 173.99 90)
 			(effects
 				(font
@@ -16805,7 +16805,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C72043"
+		(property "LCSC" "C22371297"
 			(at 71.12 132.08 90)
 			(effects
 				(font
@@ -17600,7 +17600,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C72043"
+		(property "LCSC" "C22371297"
 			(at 71.12 173.99 90)
 			(effects
 				(font
@@ -20109,7 +20109,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C72043"
+		(property "LCSC" "C22371297"
 			(at 35.56 132.08 90)
 			(effects
 				(font
