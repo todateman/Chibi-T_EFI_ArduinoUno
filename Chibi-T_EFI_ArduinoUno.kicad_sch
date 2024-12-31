@@ -5,9 +5,9 @@
 	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	(paper "A3")
 	(title_block
-		(title "Chibi-T EFI Arduino Uno Shield")
-		(date "2023-12-09")
-		(rev "1.03")
+		(title "Chibi-T EFI RMC-RA4M1 Shield")
+		(date "2024-12-31")
+		(rev "2.00")
 		(company "Chibi-T International")
 		(comment 1 "Tomohiro Kusu")
 	)
@@ -4998,6 +4998,12 @@
 		(uuid "0aca3d66-e6dc-4011-be65-5bcc190222a0")
 	)
 	(junction
+		(at 119.38 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e23ac8d-ed02-4be6-9dbd-c98a4b89b605")
+	)
+	(junction
 		(at 335.28 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5200,6 +5206,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63854ab2-3113-4137-8cc3-98a5a670dbe3")
+	)
+	(junction
+		(at 95.25 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6dc53183-12c4-4083-81aa-b47f49d8be78")
 	)
 	(junction
 		(at 264.16 187.96)
@@ -5526,6 +5538,12 @@
 		(uuid "f16c6d91-9c67-41fc-9974-51440aa98ee4")
 	)
 	(junction
+		(at 110.49 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f43d8109-7f19-44ee-8dfb-d5a48db9c034")
+	)
+	(junction
 		(at 39.37 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5590,10 +5608,6 @@
 	(no_connect
 		(at 124.46 132.08)
 		(uuid "d181157c-7812-47e5-a0cf-9580c905fc86")
-	)
-	(no_connect
-		(at 109.22 134.62)
-		(uuid "f4bf0819-c5f0-43b4-82b8-99891a3d995a")
 	)
 	(no_connect
 		(at 152.4 139.7)
@@ -6241,6 +6255,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 134.62) (xy 119.38 142.24)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "33f42c92-ef66-4bd5-9a16-7b6985ebc0d1")
+	)
+	(wire
+		(pts
 			(xy 289.56 31.75) (xy 292.1 31.75)
 		)
 		(stroke
@@ -6341,7 +6365,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 129.54) (xy 119.38 142.24)
+			(xy 119.38 129.54) (xy 119.38 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6981,6 +7005,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 125.73) (xy 95.25 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60e3a4d0-c45f-42f8-a1b5-63043fa9a92b")
+	)
+	(wire
+		(pts
 			(xy 350.52 62.23) (xy 342.9 62.23)
 		)
 		(stroke
@@ -7131,6 +7165,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 125.73) (xy 110.49 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cc6309a-d342-4475-81bf-085f7e52677f")
+	)
+	(wire
+		(pts
 			(xy 64.77 87.63) (xy 64.77 93.98)
 		)
 		(stroke
@@ -7238,16 +7282,6 @@
 			(type default)
 		)
 		(uuid "73b23cc3-ce50-40a5-b6f3-5817bc673407")
-	)
-	(wire
-		(pts
-			(xy 109.22 134.62) (xy 124.46 134.62)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "73d4774c-1387-4550-b580-a1cc0ac89b89")
 	)
 	(wire
 		(pts
@@ -7591,6 +7625,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 125.73) (xy 95.25 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b99b932-d20a-4869-8e7b-29dc60587a35")
+	)
+	(wire
+		(pts
 			(xy 384.81 152.4) (xy 384.81 142.24)
 		)
 		(stroke
@@ -7641,7 +7685,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 137.16) (xy 124.46 137.16)
+			(xy 107.95 137.16) (xy 110.49 137.16)
 		)
 		(stroke
 			(width 0)
@@ -7838,6 +7882,16 @@
 			(type default)
 		)
 		(uuid "9e01248f-23f5-4c1e-b6fe-fbbd931e2cf1")
+	)
+	(wire
+		(pts
+			(xy 110.49 137.16) (xy 124.46 137.16)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "9e642abb-9917-4915-b253-facd310c509a")
 	)
 	(wire
 		(pts
@@ -8531,6 +8585,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 134.62) (xy 124.46 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4606f75-4754-42ce-b471-9f880a290629")
+	)
+	(wire
+		(pts
 			(xy 199.39 181.61) (xy 203.2 181.61)
 		)
 		(stroke
@@ -8981,6 +9045,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 125.73) (xy 110.49 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f71a2c0b-03df-4e8d-a362-07362e603cd7")
+	)
+	(wire
+		(pts
 			(xy 255.27 157.48) (xy 256.54 157.48)
 		)
 		(stroke
@@ -9145,17 +9219,6 @@
 		)
 		(uuid "3de8d79a-4c71-40a0-8f1a-eb61fa028124")
 	)
-	(label "~{RESET}"
-		(at 109.22 137.16 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "49585dba-cfa7-4813-841e-9d900d43ecf4")
-	)
 	(label "G"
 		(at 363.22 157.48 0)
 		(fields_autoplaced yes)
@@ -9299,17 +9362,6 @@
 		)
 		(uuid "ccb58899-a82d-403c-b30b-ee351d622e9c")
 	)
-	(label "NE"
-		(at 349.25 160.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d6867f81-5269-45cd-a2db-32c9cfb42e90")
-	)
 	(label "*5"
 		(at 165.1 165.1 180)
 		(fields_autoplaced yes)
@@ -9320,17 +9372,6 @@
 			(justify right bottom)
 		)
 		(uuid "d9a65242-9c26-45cd-9a55-3e69f0d77784")
-	)
-	(label "IOREF"
-		(at 109.22 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "de819ae4-b245-474b-a426-865ba877b8a2")
 	)
 	(global_label "*3"
 		(shape output)
@@ -9953,7 +9994,7 @@
 		(at 129.54 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000056d71773")
@@ -10244,7 +10285,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000056d72368")
@@ -10408,7 +10449,7 @@
 		(at 129.54 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000056d72f1c")
@@ -10497,7 +10538,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000056d734d0")
@@ -17624,7 +17665,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "K250R600"
+		(property "Value" "JK250-600U"
 			(at 288.29 27.94 0)
 			(effects
 				(font
@@ -17661,7 +17702,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2960605"
+		(property "LCSC" "C369135"
 			(at 287.02 31.75 0)
 			(effects
 				(font
@@ -17680,6 +17721,85 @@
 			(project "Chibi-T_EFI_ArduinoUno"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 101.6 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "888d9e74-5f36-47ea-9384-40d7825ccc06")
+		(property "Reference" "J18"
+			(at 100.33 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 102.87 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
+			(at 101.6 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 101.6 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C160262"
+			(at 101.6 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf1632ee-ded4-4a13-b624-41bb1c95cfd4")
+		)
+		(pin "2"
+			(uuid "3617952c-268e-480d-94c9-1ff564447290")
+		)
+		(instances
+			(project "Chibi-T_EFI_ArduinoUno"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J18")
 					(unit 1)
 				)
 			)
