@@ -3,4 +3,5 @@
   (lib (name "Arduino_MountingHole")(type "KiCad")(uri "${KICAD7_TEMPLATE_DIR}/Arduino_Mega/Arduino_MountingHole.pretty")(options "")(descr ""))
   (lib (name "logos")(type "KiCad")(uri "${KIPRJMOD}/logos.pretty")(options "")(descr ""))
   (lib (name "Connector_Card")(type "KiCad")(uri "${KIPRJMOD}/Connector_Card.pretty")(options "")(descr "")(disabled))
+  (lib (name "SS54")(type "EasyEDA / JLCEDA Pro")(uri "${KIPRJMOD}/SS54/SS54.elibz")(options "")(descr ""))
 )

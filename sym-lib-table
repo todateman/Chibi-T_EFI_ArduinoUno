@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SS54")(type "EasyEDA (JLCEDA) Pro")(uri "${KIPRJMOD}/SS54/SS54.elibz")(options "")(descr ""))
+)
