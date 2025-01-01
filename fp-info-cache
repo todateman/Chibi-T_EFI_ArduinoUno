@@ -1,4 +1,4 @@
-24266108638682562
+24267844342573969
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +13,13 @@ audio belton reverb
 0
 7
 7
+BD9E301EFJ-LBE2
+HTSOP-J8_L4.9-W3.9-P1.27-LS6.0-BL-EP
+
+
+0
+9
+9
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -90530,6 +90537,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SS54
+SMA_L4.4-W2.8-LS5.4-R-RD
+
+
+0
+2
+2
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -98463,6 +98477,13 @@ Varistor VF
 2
 logos
 Chibi-T
+
+
+0
+0
+0
+logos
+githubURL
 
 
 0
