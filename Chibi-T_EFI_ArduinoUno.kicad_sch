@@ -2825,163 +2825,6 @@
 				)
 			)
 		)
-		(symbol "Device:L"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L"
-				(at 1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 -2.54)
-					(mid 0.6323 -1.905)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 0.635)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 1.905)
-					(end 0 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:LED"
 			(pin_numbers hide)
 			(pin_names
@@ -5149,6 +4992,185 @@
 				)
 			)
 		)
+		(symbol "XAL4030-472MEC:XAL4030-472MEC_C19191688"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "XAL4030-472MEC:IND-SMD_L4.0-W4.0_XAL4030-682MEC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20231110/85A078131A04A3080D8D7E0D07D6A26C.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "XAL4030-472MEC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Coilcraft(线艺)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C19191688"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" "AEC-Q200"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "XAL4030-472MEC_C19191688_1_0"
+				(arc
+					(start -2.032 0)
+					(mid -3.048 1.0163)
+					(end -4.064 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid -1.016 1.0163)
+					(end -2.032 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.032 0)
+					(mid 1.016 1.016)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 4.064 0)
+					(mid 3.048 1.016)
+					(end 2.032 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 1.016)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 1.016)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_names
@@ -6590,16 +6612,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 80.01) (xy 52.07 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "049af476-6ebb-4453-865c-3a24a863fe59")
-	)
-	(wire
-		(pts
 			(xy 71.12 186.69) (xy 71.12 189.23)
 		)
 		(stroke
@@ -6637,6 +6649,16 @@
 			(type default)
 		)
 		(uuid "05fc9350-6301-4957-93da-fb1679074c9c")
+	)
+	(wire
+		(pts
+			(xy 45.72 80.01) (xy 45.72 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06164ecb-1f8f-4698-bc71-e779cbc77f10")
 	)
 	(wire
 		(pts
@@ -6840,16 +6862,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 72.39) (xy 48.26 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14699866-e0dd-412a-9182-3f14bb8eb5b5")
-	)
-	(wire
-		(pts
 			(xy 389.89 116.84) (xy 384.81 116.84)
 		)
 		(stroke
@@ -7047,6 +7059,16 @@
 			(type default)
 		)
 		(uuid "25dd716e-4b32-429c-bf78-7bca6f75ca8d")
+	)
+	(wire
+		(pts
+			(xy 49.53 74.93) (xy 49.53 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "286d93ec-3460-496d-9c0a-14cd580317b8")
 	)
 	(wire
 		(pts
@@ -7470,7 +7492,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 46.99) (xy 359.41 48.26)
+			(xy 359.41 45.72) (xy 359.41 46.99)
 		)
 		(stroke
 			(width 0)
@@ -7527,6 +7549,16 @@
 			(type default)
 		)
 		(uuid "45dc3f17-6de4-4837-ae63-9e5b56b86d3c")
+	)
+	(wire
+		(pts
+			(xy 50.8 72.39) (xy 48.26 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "461ed217-013f-45ea-82eb-1b618f92105e")
 	)
 	(wire
 		(pts
@@ -8250,16 +8282,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 74.93) (xy 52.07 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71b5f8d9-9dc3-4e39-8612-2c0adbdcfb9b")
-	)
-	(wire
-		(pts
 			(xy 227.33 116.84) (xy 227.33 129.54)
 		)
 		(stroke
@@ -8310,6 +8332,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 80.01) (xy 50.8 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74939574-195b-4a39-941f-d5b3da2ac600")
+	)
+	(wire
+		(pts
 			(xy 369.57 219.71) (xy 389.89 219.71)
 		)
 		(stroke
@@ -8347,16 +8379,6 @@
 			(type default)
 		)
 		(uuid "7726e3a0-d342-48ae-adde-e1d6614a2563")
-	)
-	(wire
-		(pts
-			(xy 50.8 66.04) (xy 50.8 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "782191d8-d840-48c1-8e57-4d1e52eff788")
 	)
 	(wire
 		(pts
@@ -8620,16 +8642,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 72.39) (xy 52.07 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87baf78f-5320-471d-99d6-d686a9e14ca4")
-	)
-	(wire
-		(pts
 			(xy 323.85 134.62) (xy 323.85 158.75)
 		)
 		(stroke
@@ -8800,16 +8812,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 93.98) (xy 45.72 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95572212-ba2c-4fc9-b5da-527f1df432cc")
-	)
-	(wire
-		(pts
 			(xy 316.23 64.77) (xy 320.04 64.77)
 		)
 		(stroke
@@ -8840,7 +8842,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 46.99) (xy 359.41 46.99)
+			(xy 342.9 45.72) (xy 359.41 45.72)
 		)
 		(stroke
 			(width 0)
@@ -8900,7 +8902,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 57.15) (xy 342.9 46.99)
+			(xy 342.9 57.15) (xy 342.9 45.72)
 		)
 		(stroke
 			(width 0)
@@ -9050,7 +9052,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 59.69) (xy 355.6 59.69)
+			(xy 347.98 59.69) (xy 353.06 59.69)
 		)
 		(stroke
 			(width 0)
@@ -9380,6 +9382,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 77.47) (xy 50.8 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b254e837-508c-4e09-95dc-59552e8b4332")
+	)
+	(wire
+		(pts
 			(xy 299.72 132.08) (xy 299.72 148.59)
 		)
 		(stroke
@@ -9510,6 +9522,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 72.39) (xy 48.26 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbc09b6e-dc12-4515-b391-df6f75cfe1c4")
+	)
+	(wire
+		(pts
 			(xy 95.25 144.78) (xy 121.92 144.78)
 		)
 		(stroke
@@ -9557,16 +9579,6 @@
 			(type default)
 		)
 		(uuid "be55fd9c-eda1-4c30-9035-39e20e1ca541")
-	)
-	(wire
-		(pts
-			(xy 45.72 73.66) (xy 45.72 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be5e42de-e8ac-406b-9edf-12a58feb6e95")
 	)
 	(wire
 		(pts
@@ -9820,6 +9832,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 74.93) (xy 49.53 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5023135-b729-4de5-876f-d574ccd0a9ef")
+	)
+	(wire
+		(pts
 			(xy 223.52 139.7) (xy 266.7 139.7)
 		)
 		(stroke
@@ -9837,6 +9859,16 @@
 			(type default)
 		)
 		(uuid "d7083652-d331-401c-adb8-67635ee98db8")
+	)
+	(wire
+		(pts
+			(xy 45.72 73.66) (xy 45.72 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d73c2f8d-638e-48b2-acf4-9bea3dd5f293")
 	)
 	(wire
 		(pts
@@ -10327,16 +10359,6 @@
 			(type default)
 		)
 		(uuid "f98aaa1b-a169-446c-96d3-4d257d42253e")
-	)
-	(wire
-		(pts
-			(xy 45.72 77.47) (xy 52.07 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb956795-7139-40e1-ba43-eec2acc7d7f0")
 	)
 	(wire
 		(pts
@@ -12695,7 +12717,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C400708"
+		(property "LCSC" " C400708"
 			(at 708.66 449.58 0)
 			(effects
 				(font
@@ -13258,7 +13280,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 359.41 48.26 0)
+		(at 359.41 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13266,7 +13288,7 @@
 		(dnp no)
 		(uuid "194d7b11-d165-4b4f-a620-525c2f86c184")
 		(property "Reference" "#PWR037"
-			(at 359.41 54.61 0)
+			(at 359.41 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13275,7 +13297,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 359.41 52.07 0)
+			(at 359.41 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13283,7 +13305,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 359.41 48.26 0)
+			(at 359.41 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13292,7 +13314,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 359.41 48.26 0)
+			(at 359.41 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13301,7 +13323,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 359.41 48.26 0)
+			(at 359.41 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15572,8 +15594,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 359.41 59.69 90)
+		(lib_id "XAL4030-472MEC:XAL4030-472MEC_C19191688")
+		(at 358.14 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15582,7 +15604,7 @@
 		(fields_autoplaced yes)
 		(uuid "3cd26e59-c1b7-4635-a019-f6e1cb919b89")
 		(property "Reference" "L1"
-			(at 359.41 54.61 90)
+			(at 358.14 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15590,15 +15612,15 @@
 			)
 		)
 		(property "Value" "4.7uH"
-			(at 359.41 57.15 90)
+			(at 358.14 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Taiyo-Yuden_MD-1616"
-			(at 359.41 59.69 0)
+		(property "Footprint" "XAL4030-472MEC:IND-SMD_L4.0-W4.0_XAL4030-682MEC"
+			(at 358.14 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15606,8 +15628,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 359.41 59.69 0)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20231110/85A078131A04A3080D8D7E0D07D6A26C.pdf"
+			(at 358.14 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15616,7 +15638,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 359.41 59.69 0)
+			(at 358.14 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15625,7 +15647,70 @@
 			)
 		)
 		(property "LCSC" "C19191688"
-			(at 359.41 59.69 0)
+			(at 358.14 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3DModel_Q" "a7d54a1459a04bcb8bfe1578ecdbab31"
+			(at -1.27 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_3D_Size" "4 4.01"
+			(at -1.27 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "XAL4030-472MEC"
+			(at 358.14 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Coilcraft(线艺)"
+			(at 358.14 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C19191688"
+			(at 358.14 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 358.14 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "AEC-Q200"
+			(at 358.14 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15783,15 +15868,6 @@
 		)
 		(property "LCSC" "C5359629"
 			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "XUNPU(讯普)"
-			(at 55.88 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16683,7 +16759,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 50.8 66.04 0)
+		(at 49.53 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16691,7 +16767,7 @@
 		(dnp no)
 		(uuid "51a25d75-4151-4653-948f-adbe056f26f5")
 		(property "Reference" "#PWR011"
-			(at 50.8 69.85 0)
+			(at 49.53 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16700,7 +16776,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 51.181 62.992 90)
+			(at 49.911 62.992 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16709,7 +16785,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 66.04 0)
+			(at 49.53 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16718,7 +16794,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 66.04 0)
+			(at 49.53 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16727,7 +16803,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 66.04 0)
+			(at 49.53 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)

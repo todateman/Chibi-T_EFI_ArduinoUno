@@ -1,4 +1,4 @@
-24266108638685447
+24266108638686290
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -98482,6 +98482,13 @@ CONN-TH_4P-P2.00_WAFER-HY2.0-4PWZ
 0
 4
 4
+XAL4030-472MEC
+IND-SMD_L4.0-W4.0_XAL4030-682MEC
+
+
+0
+2
+2
 logos
 Chibi-T
 
