@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Chibi-T EFI RMC-RA4M1 Shield")
-		(date "2024-12-31")
-		(rev "2.00")
+		(date "2025-01-13")
+		(rev "2.02")
 		(company "Chibi-T International")
 		(comment 1 "Tomohiro Kusu")
 	)
