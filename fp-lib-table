@@ -8,4 +8,5 @@
   (lib (name "WAFER-HY2.0-4PWZ_Grove")(type "EasyEDA / JLCEDA Pro")(uri "${KIPRJMOD}/WAFER-HY2.0-4PWZ/CONN-TH_4P-P2.00_WAFER-HY2.0-4PWZ.elibz")(options "")(descr ""))
   (lib (name "XAL4030-472MEC")(type "EasyEDA / JLCEDA Pro")(uri "${KIPRJMOD}/XAL4030-472MEC/XAL4030-472MEC.elibz")(options "")(descr ""))
   (lib (name "M78AR05-0.5")(type "KiCad")(uri "${KIPRJMOD}/M78AR05-0.5/footprints.pretty")(options "")(descr ""))
+  (lib (name "DMP32D4SW-7")(type "EasyEDA / JLCEDA Pro")(uri "${KIPRJMOD}/DMP32D4SW-7/DMP32D4SW-7.elibz")(options "")(descr ""))
 )
