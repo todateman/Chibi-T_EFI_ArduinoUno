@@ -1,4 +1,9 @@
 (sym_lib_table
   (version 7)
+  (lib (name "BD9E301EFJ-LBE2")(type "EasyEDA (JLCEDA) Pro")(uri "${KIPRJMOD}/BD9E301EFJ-LBE2/BD9E301EFJ-LBE2.elibz")(options "")(descr ""))
   (lib (name "SS54")(type "EasyEDA (JLCEDA) Pro")(uri "${KIPRJMOD}/SS54/SS54.elibz")(options "")(descr ""))
+  (lib (name "WAFER-HY2.0-4PWZ_Grove")(type "EasyEDA (JLCEDA) Pro")(uri "${KIPRJMOD}/WAFER-HY2.0-4PWZ/CONN-TH_4P-P2.00_WAFER-HY2.0-4PWZ.elibz")(options "")(descr ""))
+  (lib (name "XAL4030-472MEC")(type "EasyEDA (JLCEDA) Pro")(uri "${KIPRJMOD}/XAL4030-472MEC/XAL4030-472MEC.elibz")(options "")(descr ""))
+  (lib (name "M78AR05-0.5")(type "KiCad")(uri "${KIPRJMOD}/M78AR05-0.5/M78AR05-0.5.kicad_sym")(options "")(descr ""))
+  (lib (name "DMP32D4SW-7")(type "EasyEDA (JLCEDA) Pro")(uri "${KIPRJMOD}/DMP32D4SW-7/DMP32D4SW-7.elibz")(options "")(descr ""))
 )
